@@ -1,0 +1,22 @@
+urls_food_category = {
+    "https://www.newfoodmagazine.com/article/214501/is-2024-the-year-of-health-conscious-pancakes/": "Food",
+    "https://www.newfoodmagazine.com/article/209874/is-the-plant-based-bubble-bursting/": "Food",
+    "https://www.newfoodmagazine.com/article/208223/net-zero-a-half-full-or-half-empty-promise-in-the-beverage-industry/": "Food",
+    "https://www.newfoodmagazine.com/article/197499/how-to-reduce-food-waste-during-food-production/": "Food",
+    "https://www.newfoodmagazine.com/article/197473/eating-smart-innovating-food-for-health-flavour-and-the-planet/": "Food",
+    "https://www.newfoodmagazine.com/article/197418/harnessing-data-and-ai-to-improve-food-quality-and-safety/": "Food",
+    "https://www.newfoodmagazine.com/article/197306/whats-on-the-menu-five-food-trend-predictions-for-2024/": "Food",
+    "https://www.newfoodmagazine.com/article/197193/turning-up-the-dial-on-frozen/": "Food",
+    "https://www.newfoodmagazine.com/article/196888/the-meat-of-the-matter-how-livestock-fared-at-cop28/": "Food",
+    "https://www.newfoodmagazine.com/article/196895/chefs-and-cultured-meat-a-recipe-for-culinary-revolution/": "Food",
+    "https://www.newfoodmagazine.com/article/196626/ebook-food-and-beverage-chemical-contaminant-testing/": "Food",
+    "https://www.newfoodmagazine.com/article/225270/will-ai-enhance-or-disrupt-the-fast-food-industry-2/": "Food",
+    "https://www.newfoodmagazine.com/article/222086/changing-appetites-adapting-to-evolving-tastes-in-processed-foods/": "Food",
+    "https://www.newfoodmagazine.com/article/221466/stepping-up-to-the-plate-nick-stevens/": "Food",
+    "https://www.newfoodmagazine.com/article/228923/navigating-the-canned-cocktail-revolution/": "Food",
+    "https://www.newfoodmagazine.com/article/228880/ais-potential-to-enhance-food-safety-practices/": "Food",
+    "https://www.newfoodmagazine.com/article/227126/ebook-colour-impact-food-beverage-experience/": "Food",
+    "https://www.newfoodmagazine.com/article/227340/plant-based-finding-the-recipe-for-success/": "Food",
+    "https://www.newfoodmagazine.com/article/227239/net-zero-farming-a-recipe-for-food-insecurity-in-the-uk/": "Food",
+    "https://www.newfoodmagazine.com/article/225261/how-is-adm-moving-the-needle-when-it-comes-to-food-flavours/": "Food"
+}
