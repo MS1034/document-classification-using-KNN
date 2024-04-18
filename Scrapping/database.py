@@ -11,3 +11,9 @@ class Database:
 
     def insert_data(self, data):
         self.collection.insert_one(data)
+
+    def get_all_data(self):
+        return self.collection.find()
+
+    def get_data(self, query):
+        return self.collection.find(query)
