@@ -14,7 +14,7 @@ class Database:
         self.collection.insert_one(data)
 
     def get_all_data(self):
-        return dumps(self.collection.find())
+        return self.collection.find()
 
     def get_data(self, query):
         return self.collection.find(query)
