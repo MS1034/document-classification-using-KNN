@@ -20,10 +20,6 @@ To install and set up the project, follow these steps:
 
 1. Clone the repository to your local machine.
 
-## Usage
-
-4.
-
 ## Features
 
 - Representation of documents as directed graphs.
@@ -45,6 +41,8 @@ Contributions to the project are welcome! If you'd like to contribute:
 This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
+
+Sir Waqas Ali
 
 ## Contact
 
