@@ -1,6 +1,7 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import pymongo
+from bson.json_util import dumps
 
 
 class Database:

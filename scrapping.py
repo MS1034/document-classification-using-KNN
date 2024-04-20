@@ -2,7 +2,7 @@ from Food.site_urls import urls_food_category
 from database import Database
 from dotenv import load_dotenv
 from Food.food import scrape_food_text
-from Preprocessing.preprocessor import text_preprocessing
+from preprocessor import text_preprocessing
 import os
 
 
