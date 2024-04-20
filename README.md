@@ -7,7 +7,6 @@ This project aims to implement a document classification system using graph theo
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
@@ -48,4 +47,4 @@ Sir Waqas Ali
 
 For any inquiries or feedback, please contact:
 
-- [Project Maintainer]: hoco1092@gmail.com
+- hoco1092@gmail.com
