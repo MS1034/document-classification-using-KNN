@@ -3,7 +3,7 @@ from gspan_mining import gSpan
 from gspan_mining.graph import Graph
 from database import Database
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, confusion_matrix
 from nltk.tokenize import word_tokenize
 from dotenv import load_dotenv
 import nltk
@@ -11,7 +11,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from collections import defaultdict
 import os
-from classification_vector import vector_knn, vectorize_text
+from classification_vector import k_nearest_neighbor, vectorize_text
 
 
 nltk.download('punkt')
@@ -160,7 +160,7 @@ def main():
     uri = os.getenv('MOBILE_MONGO_URI')
     db = Database('Document-Classification-DB', 'Articles', uri)
     documents = db.get_all_data()
-    train_data, test_data = split_train_test_data(documents, 0.15)
+    train_data, test_data = split_train_test_data(documents, 0.8)
 
     train_graphs = [(create_graph(doc['preprocessed-text']),
                      doc['category']) for doc in train_data]
@@ -178,6 +178,7 @@ def main():
 
     print("Classification Report:")
     print(classification_report(true_labels, predictions))
+    print(confusion_matrix(true_labels, predictions))
 
     X_train = [entry['preprocessed-text'] for entry in train_data]
     y_train = [entry['category'] for entry in train_data]
@@ -187,8 +188,9 @@ def main():
     # Vectorize text data
     X_train_vec, X_test_vec = vectorize_text(X_train, X_test)
 
-    y_pred = vector_knn(X_train_vec, y_train, X_test_vec, k)
+    y_pred = k_nearest_neighbor(X_train_vec, y_train, X_test_vec, k)
     print(classification_report(y_test, y_pred))
+    print(confusion_matrix(y_test, y_pred))
 
 
 if __name__ == "__main__":
